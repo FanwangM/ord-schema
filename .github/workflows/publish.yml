@@ -24,7 +24,7 @@ jobs:
     if: github.repository == 'open-reaction-database/ord-schema'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACTIONS_PUSH }}
       - uses: actions/setup-python@v4
